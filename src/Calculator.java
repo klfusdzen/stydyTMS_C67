@@ -24,6 +24,8 @@ public class Calculator {
     }
 
     public Calculator(double weigth, int cost, String color) {
+        //У конструктора нет возвращаемого значения
+        //Название такое же как у класса
         this.weigth = weigth;
         this.cost = cost;
         this.color = color;
