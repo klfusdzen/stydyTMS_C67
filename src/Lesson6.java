@@ -1,14 +1,11 @@
+
+
 public class Lesson6 {
     public static void main(String[] args) {
         //Создание из чертежа
-        Kitty firstKitty = new Kitty();
-        Kitty secondKitty = new Kitty();
+        Kitty firstKitty = new Kitty("Kate", 5);
+        Kitty secondKitty = new Kitty(10);
 
-        firstKitty.age = 5;
-        firstKitty.breed = "Siam";
-        firstKitty.name = "Kate";
-        firstKitty.weight = 3;
-
-        System.out.println(firstKitty.name);
+        System.out.println(firstKitty.age);
     }
 }
