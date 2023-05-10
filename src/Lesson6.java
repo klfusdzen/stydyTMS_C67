@@ -1,14 +1,14 @@
-
-
 public class Lesson6 {
-    //Когда создаем класс даем ему название того, что хотим назвать
-    //Kitty
-    //Состояние (характеристики): цвет
-    String color;
-    String breed;
-    String name;
-    int age;
-    int weight;
+    public static void main(String[] args) {
+        //Создание из чертежа
+        Kitty firstKitty = new Kitty();
+        Kitty secondKitty = new Kitty();
 
-    //Поведение (что умеет делать): мяукать, бегать
+        firstKitty.age = 5;
+        firstKitty.breed = "Siam";
+        firstKitty.name = "Kate";
+        firstKitty.weight = 3;
+
+        System.out.println(firstKitty.name);
+    }
 }

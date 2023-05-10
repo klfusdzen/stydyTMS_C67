@@ -1,10 +1,9 @@
-
-
 public class Kitty {
-    public static void main(String[] args) {
-        //Чертеж уже есть
-        //Создаем обьект котенок
-        int i = 5;
-        Kitty firstKitty = new Kitty();
-    }
+//Класс мы называем так, как хотим описать обьект
+    //Состояние (характеристики): цвет
+    //Поведение (что может): бегать, мяукать, ходить
+    String name;
+    String breed;
+    int age;
+    int weight;
 }
