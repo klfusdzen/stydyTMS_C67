@@ -1,6 +1,6 @@
-package Courses;
+package Homework;
 
-public class MyFirstClass {
+public class Homework1 {
     /* public static void main(String[] args) {        //Task 1
         int b = 1;
         int c = 2;
