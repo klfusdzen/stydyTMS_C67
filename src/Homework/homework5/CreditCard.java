@@ -25,11 +25,7 @@ public class CreditCard {
     }
 
     double minusMoney(double amount) {
-        if (this.currentAmount >= amount) {
             return this.currentAmount -= amount;
-        } else {
-            return this.currentAmount;
-        }
     }
 
     void showInfo() {
