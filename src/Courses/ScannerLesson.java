@@ -1,3 +1,5 @@
+package Courses;
+
 import java.util.Scanner;
 public class ScannerLesson {
     /* public static void main(String[] args) {

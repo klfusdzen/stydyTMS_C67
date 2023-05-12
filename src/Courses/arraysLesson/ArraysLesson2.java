@@ -1,3 +1,5 @@
+package Courses.arraysLesson;
+
 import java.sql.SQLOutput;
 import java.util.Random;
 import java.util.Scanner;
@@ -18,17 +20,17 @@ public class ArraysLesson2 {
         } */
 
         //Сортировка массива
-        /* Arrays.sort(array);
-        System.out.println(Arrays.toString(array));
+        /* Courses.arraysLesson.Arrays.sort(array);
+        System.out.println(Courses.arraysLesson.Arrays.toString(array));
 
         //Поиск элеменов
-        System.out.println(Arrays.binarySearch(array, 3)); //выведет индекс
+        System.out.println(Courses.arraysLesson.Arrays.binarySearch(array, 3)); //выведет индекс
         //Для бинарного поиска нужно отсортировать массив по возрастанию
         */
 
         //Копирование массивов
         //System.arraycopy(array, 1,finalArray,1,2); //Так уже не работают
-        //System.out.println(Arrays.toString(finalArray));
+        //System.out.println(Courses.arraysLesson.Arrays.toString(finalArray));
 
         //Создание n-мерных массивов
         //int[][] binArray = new int[3][4]; //строки и столбцы
@@ -42,9 +44,9 @@ public class ArraysLesson2 {
         //int[] a = {1, 4, 5};
         //int[] b = {3, 6, 8,};
 
-        //System.out.println(Arrays.equals(a, b)); //В многомерных добавляем deepEquals вместо equals
+        //System.out.println(Courses.arraysLesson.Arrays.equals(a, b)); //В многомерных добавляем deepEquals вместо equals
 
-        //System.out.println(Arrays.deepToString(binArray));
+        //System.out.println(Courses.arraysLesson.Arrays.deepToString(binArray));
 
         //Random random = new Random();
         //random.nextInt(); //Псевдослучайное число (Числа генерируются по определенному паттерну, который можно вычислить)

@@ -1,3 +1,5 @@
+package Courses;
+
 import java.util.Scanner;
 
 public class MathExample {

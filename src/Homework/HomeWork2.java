@@ -1,4 +1,4 @@
-//Управляющие конструкции
+package Homework;//Управляющие конструкции
 
 import java.sql.SQLOutput;
 import java.util.Scanner;
