@@ -17,9 +17,6 @@ public class CreditCard {
         this.currentAmount = currentAmount;
     }
 
-    public CreditCard() {
-    }
-
     double plusMoney(double amount) {
         return this.currentAmount += amount;
     }

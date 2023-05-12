@@ -27,6 +27,10 @@ public class Main {
         double c = scanner.nextDouble();
         creditCard3.minusMoney(c);
 
+        double result1 = creditCard1.plusMoney(a);
+        double result2 = creditCard2.plusMoney(b);
+        double result3 = creditCard3.plusMoney(c);
+
         creditCard1.showInfo();
         creditCard2.showInfo();
         creditCard3.showInfo();
