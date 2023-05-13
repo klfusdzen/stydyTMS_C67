@@ -16,20 +16,9 @@ public class Main {
         CreditCard creditCard2 = new CreditCard(234567,30);
         CreditCard creditCard3 = new CreditCard(123456,40);
 
-        System.out.println("На какую сумму пополнить первую карту? ");
-        Scanner scanner = new Scanner(System.in);
-        double a = scanner.nextDouble();
-        creditCard1.plusMoney(a);
-        System.out.println("На какую сумму пополнить вторую карту? ");
-        double b = scanner.nextDouble();
-        creditCard2.plusMoney(b);
-        System.out.println("Какую сумму снять с третьей карты? ");
-        double c = scanner.nextDouble();
-        creditCard3.minusMoney(c);
-
-        double result1 = creditCard1.plusMoney(a);
-        double result2 = creditCard2.plusMoney(b);
-        double result3 = creditCard3.plusMoney(c);
+        double result1 = creditCard1.plusMoney(20);
+        double result2 = creditCard2.plusMoney(30);
+        double result3 = creditCard3.plusMoney(40);
 
         creditCard1.showInfo();
         creditCard2.showInfo();
