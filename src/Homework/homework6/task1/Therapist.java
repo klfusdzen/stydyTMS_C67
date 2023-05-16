@@ -5,7 +5,7 @@ public class Therapist extends ClinicDoctor {
         System.out.println("Prescribe treatment");
     }
 
-    void AppointDoctor(Patient object){
+    void appointDoctor(Patient object){
         switch (object.getTreatPlan()){
             case 1 -> {
                 object.setDoctor(new Dentist());

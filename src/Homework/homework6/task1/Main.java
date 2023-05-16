@@ -7,8 +7,8 @@ public class Main {
         Patient patient3 = new Patient(2);
 
         Therapist therapist = new Therapist();
-        therapist.AppointDoctor(patient1);
-        therapist.AppointDoctor(patient2);
-        therapist.AppointDoctor(patient3);
+        therapist.appointDoctor(patient1);
+        therapist.appointDoctor(patient2);
+        therapist.appointDoctor(patient3);
     }
 }
