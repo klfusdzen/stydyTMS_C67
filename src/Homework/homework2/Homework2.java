@@ -1,4 +1,4 @@
-package Homework;//Управляющие конструкции
+package Homework.homework2;//Управляющие конструкции
 
 public class Homework2 {
     //Task1
