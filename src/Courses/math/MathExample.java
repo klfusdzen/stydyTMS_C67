@@ -1,4 +1,4 @@
-package Courses;
+package Courses.math;
 
 import java.util.Scanner;
 
