@@ -42,5 +42,6 @@ public class Main {
         System.out.println(Developer.Laptop.name); */
 
         System.out.println(Person.name);
+        Person.printName();
     }
 }
