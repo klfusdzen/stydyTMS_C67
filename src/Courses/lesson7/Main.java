@@ -41,7 +41,6 @@ public class Main {
         JuniorDeveloper juniorDeveloper = new JuniorDeveloper();
         System.out.println(Developer.Laptop.name); */
 
-        Person person = new Person();
-        person.printName();
+        System.out.println(Person.name);
     }
 }
