@@ -1,7 +1,4 @@
-package Courses.arraysLesson;
-
-import java.sql.SQLOutput;
-import java.util.Scanner;
+package Courses.lesson4_arrays;
 
 public class Arrays {
     public static void main(String[] args) {
