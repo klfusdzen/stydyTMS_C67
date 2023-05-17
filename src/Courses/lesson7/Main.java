@@ -27,18 +27,19 @@ public class Main {
 
         Shape triangle = new Triangle();
         triangle.drow();
-        triangle.erase(); */
+        triangle.erase();
 
-//        Developer developer1 = new Developer();
-//        Developer developer2 = new Developer();
-//        developer1.name = "Max";
-//        developer2.name = "Alisia";
-//        System.out.println(Developer.SALARY);
-//        Developer.sayHello();
-//        System.out.println(developer1.name);
-//        System.out.println(developer2.name);
+        Developer developer1 = new Developer();
+        Developer developer2 = new Developer();
+        developer1.name = "Max";
+        developer2.name = "Alisia";
+        System.out.println(Developer.SALARY);
+        Developer.sayHello();
+        System.out.println(developer1.name);
+        System.out.println(developer2.name);
 
         JuniorDeveloper juniorDeveloper = new JuniorDeveloper();
+        System.out.println(Developer.Laptop.name); */
 
     }
 }
