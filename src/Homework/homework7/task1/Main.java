@@ -6,8 +6,8 @@ public class Main {
         Dog dog = new Dog();
         Tiger tiger = new Tiger();
         rabbit.eat("Grass");
-        dog.eat("Grass");
-        tiger.eat("Beer");
+        dog.eat("Meat");
+        tiger.eat("Grass");
         rabbit.voice();
         dog.voice();
         tiger.voice();

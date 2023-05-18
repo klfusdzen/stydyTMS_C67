@@ -9,7 +9,7 @@ public class Tiger extends  Animal {
     @Override
     public void eat(String food) {
         if (food == getMeat()) {
-            System.out.println("I like grass!");
+            System.out.println("I like meat!");
         }
         else
         {

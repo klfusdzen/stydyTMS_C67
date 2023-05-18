@@ -12,7 +12,7 @@ public class Animal {
         return grass;
     }
 
-    void voice(){
+    public void voice(){
         System.out.println("Voice");
     }
     public void eat(String food){
