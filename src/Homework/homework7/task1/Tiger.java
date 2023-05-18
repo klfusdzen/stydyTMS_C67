@@ -1,14 +1,14 @@
-package Homework.homework7;
+package Homework.homework7.task1;
 
-public class Rabbit extends Animal {
+public class Tiger extends  Animal {
     @Override
     public void voice() {
-        System.out.println("uf uf");
+        System.out.println("Rrrrr!");
     }
 
     @Override
     public void eat(String food) {
-        if (food == getGrass()) {
+        if (food == getMeat()) {
             System.out.println("I like grass!");
         }
         else

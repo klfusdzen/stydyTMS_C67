@@ -1,4 +1,4 @@
-package Homework.homework7;
+package Homework.homework7.task1;
 
 public class Dog extends Animal {
     @Override
