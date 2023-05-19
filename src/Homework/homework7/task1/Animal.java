@@ -14,8 +14,10 @@ public class Animal {
 
     public void voice(){
         System.out.println("Voice");
+
     }
     public void eat(String food){
         System.out.println("Im eat something");
     }
+
 }

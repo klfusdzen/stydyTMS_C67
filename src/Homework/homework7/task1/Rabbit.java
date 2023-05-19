@@ -10,9 +10,7 @@ public class Rabbit extends Animal {
     public void eat(String food) {
         if (food == getGrass()) {
             System.out.println("I like grass!");
-        }
-        else
-        {
+        } else {
             System.out.println("Fuuuuuu");
         }
     }
