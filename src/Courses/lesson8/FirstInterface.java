@@ -21,8 +21,6 @@ public interface FirstInterface {
         //Может использовться в дефолт блоке
     }
 
-    ;
-
     void stop();
 
     void signal();

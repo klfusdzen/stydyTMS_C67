@@ -1,6 +1,8 @@
 package Courses.lesson8;
 
-public class BMW implements FirstInterface, Cloneable { // имплементируем интерфейс // позволяет копировать интерфейс
+import java.lang.annotation.Annotation;
+
+public class BMW implements FirstInterface, Cloneable , FirstFunctionalInterface{ // имплементируем интерфейс // позволяет копировать интерфейс
     private int speed;
 
     public int getSpeed() {
@@ -36,4 +38,13 @@ public class BMW implements FirstInterface, Cloneable { // имплементи�
         setSpeed(getSpeed() + speed);
     }
 
+    @Override
+    public int shouldBeOneMethod() {
+        return 0;
+    }
+
+    @Override
+    public void hello() {
+        FirstFunctionalInterface.super.hello();
+    }
 }
