@@ -1,4 +1,5 @@
 package Homework.homework9;
+
 import java.util.Objects;
 
 public class User {
