@@ -1,13 +1,13 @@
 package Homework.homework9.task2;
 
-public class User implements Cloneable{
-    private int userID;
+public class User implements Cloneable {
     private int typeClone;
+    private int userID;
     private PC PC;
 
-    public User(int userID, int typeClone, Homework.homework9.task2.PC PC) {
-        this.userID = userID;
+    public User(int typeClone, int userID, Homework.homework9.task2.PC PC) {
         this.typeClone = typeClone;
+        this.userID = userID;
         this.PC = PC;
     }
 
@@ -51,10 +51,28 @@ public class User implements Cloneable{
     } */
 
     //Deep copy
-    @Override
+    /* @Override
     protected Object clone() throws CloneNotSupportedException {
         User user = (User) super.clone();
         user.PC = (PC) PC.clone();
         return user;
+    } */
+
+    //Let the type of cloning operation (shallow cloning or deep cloning) be passed to the program input,
+    // as well as the user id for cloning.
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        switch (typeClone) {
+            case 1 -> {
+                return super.clone();
+            }
+            case 2 -> {
+                User user = (User) super.clone();
+                user.PC = (PC) PC.clone();
+                return user;
+            }
+            default -> throw new IllegalStateException("No such type of cloning");
+        }
     }
 }
