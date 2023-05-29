@@ -161,9 +161,7 @@ public class Main {
         stringBuilder.insert(5, "y");
         stringBuilder2.delete(3,6);
         stringBuilder2.reverse();
-        stringBuilder2.toString();
-        System.out.println(stringBuilder2);
-
-
+        String builder = stringBuilder2.toString();
+        System.out.println(builder);
     }
 }
