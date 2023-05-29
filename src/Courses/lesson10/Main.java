@@ -111,7 +111,7 @@ public class Main {
 
         System.out.println();
 
-        */
+*/
 
         String your = "your";
         String welcome = "welcome";
@@ -129,6 +129,40 @@ public class Main {
         welcome.trim();
         welcome.isBlank();
         welcome.split(" ");
+
+
+        StringBuilder stringBuilder = new StringBuilder("Hello world");
+        stringBuilder.append("This is the end of line");
+        //Добавить символы в конец строки
+
+        stringBuilder.delete(4,5);
+        //Удалить с какого то символа по какой то
+
+        stringBuilder.deleteCharAt(4);
+        //Удалить именно по индексу
+
+        stringBuilder.insert(3, "BYE");
+        //Добавление в середину от какого то индекса
+
+        stringBuilder.reverse();
+        //Зеркально отражает строку
+
+        stringBuilder.toString();
+        //Сделать из СтрингБилдера строку
+
+        //Разница между Билдер и Баффер - Баффер используется в многопоточной среде
+        StringBuffer stringBuffer = new StringBuffer();
+        stringBuffer.append(1);
+
+
+
+        StringBuilder stringBuilder2 = new StringBuilder("Hello world");
+        stringBuilder2.append("xxxx");
+        stringBuilder.insert(5, "y");
+        stringBuilder2.delete(3,6);
+        stringBuilder2.reverse();
+        stringBuilder2.toString();
+        System.out.println(stringBuilder2);
 
 
     }
