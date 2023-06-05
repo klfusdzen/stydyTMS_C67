@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Enter the line:");
         String input = scanner.nextLine();
 
-        Pattern pattern = Pattern.compile("[A-Z]{2,6}");
+        Pattern pattern = Pattern.compile("\\b[A-Z]{2,6}");
         Matcher matcher = pattern.matcher(input);
         while (matcher.find()){
             System.out.println(matcher.group());
