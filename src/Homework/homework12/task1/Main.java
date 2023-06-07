@@ -15,8 +15,8 @@ public class Main {
 
         try {
             System.out.println(User.enter(user1.getLogin(), user1.getPassword(), user1.getConfirmPassword()));
-        } catch (WrongLoginException | WrongPasswordException e) {
-            System.out.println(e);
+        } catch (WrongLoginException | WrongPasswordException exception) {
+            System.out.println(exception);
         }
     }
 }
