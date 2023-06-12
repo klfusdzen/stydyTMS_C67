@@ -1,5 +1,7 @@
 package Courses.lesson4;
 
+import java.io.File;
+
 public class Arrays {
     public static void main(String[] args) {
         /* String[] array = new String[4]; //создание массива строк из 4 элементов
