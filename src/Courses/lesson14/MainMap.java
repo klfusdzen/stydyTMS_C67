@@ -15,5 +15,7 @@ public class MainMap {
         System.out.println(map);
         map.size();
         map.values();
+        //Bucket - корзина
+        //Почему важно правильно переопределить хэшкод? - 
     }
 }
